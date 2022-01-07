@@ -88,6 +88,8 @@
             </child>
             <child>
               <object class="GtkIconView">
+                <property name="width-request">34</property>
+                <property name="height-request">34</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="margin">6</property>
