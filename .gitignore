@@ -1,3 +1,5 @@
+*.glade#
+*.editorconfig
 
 # Created by https://www.toptal.com/developers/gitignore/api/rider,visualstudio,visualstudiocode,dotnetcore,csharp,aspnetcore
 # Edit at https://www.toptal.com/developers/gitignore?templates=rider,visualstudio,visualstudiocode,dotnetcore,csharp,aspnetcore
