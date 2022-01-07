@@ -13,13 +13,13 @@ namespace DriveApp.UI.Gtk
             var app = new Application("org.willemsens.DriveApp", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
 
-            var win = new MainWindow();
+            /*var win = new MainWindow();
             app.AddWindow(win);
-            win.Show();
+            win.Show();*/
 
-            /*var win2 = new MainWindow2();
+            var win2 = new MainWindow2();
             app.AddWindow(win2);
-            win2.Show();*/
+            win2.Show();
 
             Application.Run();
         }
